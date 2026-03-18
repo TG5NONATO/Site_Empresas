@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Empresa especializada em soluções inovadoras para transformar seu negócio.">
+    
+    <!-- Título da Página -->
+    <title>TechSolutions - Inovação e Tecnologia</title>
+    
+    <!-- Google Fonts - Fontes modernas e profissionais -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome para ícones (versão gratuita) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Link para o CSS principal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER MODERNO COM NAVEGAÇÃO -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <i class="fas fa-cube"></i> TG<span>STUDIO</span>
+            </a>
+            
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+            
+            <a href="#contato" class="btn btn-primary">Fale Conosco</a>
+            
+            <!-- Botão do menu mobile (hambúrguer) -->
+            <button class="menu-toggle" aria-label="Abrir menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- HERO SECTION - A primeira impressão -->
+        <section id="home" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="hero-badge">Bem-vindo à TechSolutions</span>
+                    <h1 class="hero-title">Transformamos ideias em <span>soluções digitais</span> inovadoras</h1>
+                    <p class="hero-description">
+                        Somos especialistas em desenvolvimento de software, consultoria em TI e transformação digital. 
+                        Há mais de 10 anos ajudando empresas a alcançarem todo seu potencial tecnológico.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#servicos" class="btn btn-primary btn-large">Nossos Serviços</a>
+                        <a href="#sobre" class="btn btn-outline btn-large">Conheça a Empresa</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- Você pode substituir por uma imagem real -->
+                    <div class="image-placeholder">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO SOBRE -->
+        <section id="sobre" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Quem Somos</span>
+                    <h2 class="section-title">Sobre a TechSolutions</h2>
+                    <p class="section-description">
+                        Conheça a história, os valores e a equipe por trás das soluções que transformam negócios.
+                    </p>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Mais de uma década de inovação</h3>
+                        <p>
+                            Fundada em 2012, a TechSolutions nasceu com o propósito de simplificar a tecnologia 
+                            para empresas de todos os portes. Nossa jornada começou em um pequeno escritório com 
+                            apenas 3 colaboradores e, hoje, somos uma equipe de mais de 50 especialistas apaixonados 
+                            por criar soluções que fazem a diferença.
+                        </p>
+                        <p>
+                            Acreditamos que a tecnologia deve ser uma aliada estratégica, não um obstáculo. 
+                            Por isso, trabalhamos lado a lado com nossos clientes para entender seus desafios 
+                            e oferecer soluções personalizadas que geram resultados reais.
+                        </p>
+                        
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">Anos de Mercado</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">200+</span>
+                                <span class="stat-label">Projetos Entregues</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label">Especialistas</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">150+</span>
+                                <span class="stat-label">Clientes Satisfeitos</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-users"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO SERVIÇOS -->
+        <section id="servicos" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">O que Fazemos</span>
+                    <h2 class="section-title">Nossos Serviços</h2>
+                    <p class="section-description">
+                        Oferecemos soluções completas e personalizadas para atender às necessidades específicas do seu negócio.
+                    </p>
+                </div>
+                
+                <div class="services-grid">
+                    <!-- Serviço 1 -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Desenvolvimento Web</h3>
+                        <p>Criamos sites institucionais, portais, sistemas web e e-commerces com as melhores tecnologias do mercado.</p>
+                        <a href="#" class="service-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <!-- Serviço 2 -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Aplicativos Mobile</h3>
+                        <p>Desenvolvimento de apps nativos e híbridos para iOS e Android que oferecem a melhor experiência ao usuário.</p>
+                        <a href="#" class="service-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <!-- Serviço 3 -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3>Soluções em Nuvem</h3>
+                        <p>Infraestrutura escalável, migração para a nuvem e gerenciamento de ambientes cloud para sua empresa.</p>
+                        <a href="#" class="service-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <!-- Serviço 4 -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>Inteligência Artificial</h3>
+                        <p>Soluções com IA para automatizar processos, analisar dados e gerar insights para o seu negócio.</p>
+                        <a href="#" class="service-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <!-- Serviço 5 -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Segurança da Informação</h3>
+                        <p>Proteja seus dados e sistemas com nossas soluções completas de cibersegurança e compliance.</p>
+                        <a href="#" class="service-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <!-- Serviço 6 -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <h3>Consultoria em TI</h3>
+                        <p>Análise estratégica e planejamento tecnológico para alinhar sua infraestrutura aos objetivos do negócio.</p>
+                        <a href="#" class="service-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO PORTFÓLIO / CASES DE SUCESSO -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Nossos Trabalhos</span>
+                    <h2 class="section-title">Cases de Sucesso</h2>
+                    <p class="section-description">
+                        Conheça alguns dos projetos que realizamos para nossos clientes e os resultados alcançados.
+                    </p>
+                </div>
+                
+                <div class="portfolio-grid">
+                    <!-- Case 1 -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-store"></i>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <h4>E-commerce Plus</h4>
+                                    <p>Plataforma de vendas online</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Case 2 -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <h4>Banco Digital</h4>
+                                    <p>Aplicativo financeiro</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Case 3 -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-hospital"></i>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <h4>Saúde Conectada</h4>
+                                    <p>Sistema para clínicas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Case 4 -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-school"></i>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <h4>Educação Online</h4>
+                                    <p>Plataforma de ensino EAD</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-cta">
+                    <a href="#" class="btn btn-primary">Ver Todos os Projetos</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO CONTATO -->
+        <section id="contato" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Entre em Contato</span>
+                    <h2 class="section-title">Vamos Conversar?</h2>
+                    <p class="section-description">
+                        Estamos prontos para ajudar sua empresa a alcançar novos patamares com a tecnologia certa.
+                    </p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Endereço</h4>
+                                <p>Av. Endereço, 0000 - Almenara/MG</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>Telefone</h4>
+                                <p>(00) 0000-0000</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>E-mail</h4>
+                                <p>contato@tgstudio.com.br</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Horário de Atendimento</h4>
+                                <p>Segunda a Sexta, 9h às 18h</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form>
+                            <div class="form-group">
+                                <label for="nome">Nome</label>
+                                <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="assunto">Assunto</label>
+                                <input type="text" id="assunto" name="assunto" placeholder="Assunto da mensagem" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="mensagem">Mensagem</label>
+                                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Sua mensagem..." required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-full">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- NEWSLETTER SECTION -->
+    <section class="newsletter">
+        <div class="container newsletter-container">
+            <div class="newsletter-content">
+                <h3>Fique por dentro das novidades</h3>
+                <p>Assine nossa newsletter e receba conteúdos exclusivos sobre tecnologia e inovação.</p>
+            </div>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Seu melhor e-mail" required>
+                <button type="submit" class="btn btn-primary">Inscrever-se</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="#" class="footer-logo">
+                        <i class="fas fa-cube"></i> TG<span>STUDIO</span>
+                    </a>
+                    <p>
+                        Transformando negócios através da tecnologia com soluções inovadoras e equipe especializada.
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#portfolio">Portfólio</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#">Desenvolvimento Web</a></li>
+                        <li><a href="#">Aplicativos Mobile</a></li>
+                        <li><a href="#">Soluções em Nuvem</a></li>
+                        <li><a href="#">Inteligência Artificial</a></li>
+                        <li><a href="#">Segurança da Informação</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-phone"></i> (00) 0000-0000</p>
+                    <p><i class="fas fa-envelope"></i> contato@tgstudio.com.br</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Almenara, MG</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 TGSTUDIO. Todos os direitos reservados.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script para menu mobile -->
+    <script src="script.js"></script>
+</body>
+</html>
